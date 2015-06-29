@@ -1,8 +1,6 @@
 # NpmFetchAvatar [![NPM version][npm-image]][npm] [![Build Status][travis-image]][travis] [![Coverage Status][coveralls-image]][coveralls]
 
-[![Sauce Test Status][sauce-image]][sauce]
-
-> Fetch the gravatar image url via profile page
+> Fetch the avatar url via profile page
 
 ## Installation
 
@@ -12,15 +10,15 @@ $ npm install npm-fetch-avatar --save
 
 # API
 
-## npmFetchAvatar -> (error,url)
+## npmFetchAvatar(user) -> (error,avatarUrl)
 
 description
 
 ```js
-npmFetchAvatar('substack',function(error,url){
+npmFetchAvatar('substack',function(error,avatarUrl){
   if(error) throw error
 
-  console.log(url);
+  console.log(avatarUrl);
   // https://secure.gravatar.com/avatar/d4a2f12ceae3b7f211b661576d22bfb9?size=496&default=retro
 });
 ```

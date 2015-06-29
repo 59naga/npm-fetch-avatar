@@ -32,7 +32,7 @@ deploy:
     secure: XsuWBuptDkzpFGmcgst/QEFJQe1qmqlqWC1n81H7+l1MKid6Pt+7hJ8qJFt8bJ6gW/DgPkyFgvzOMnM4foZqiLvWJDq3GwecXGufLbJVhDoCKS/94bOgqWdKPM3mPEz9L+sACySGABgih1ZEMGcLUZekDqBpYCpyFvLMEsKaIQWLGxWUt4n45WmYDsFNQ+/i8loLvD1/WJbojjtaYsXPbNoO1aqsq3we0ObhI+Oh5VEf+68iBCqoRSwis16mImhQM9cVvNnwHo4/bKYAFp/hWkyLfMY+UB8yz86ycANSHU1z/j+iD3Z2wzAe4Ln/7uiESxjQIUcUKnS/GThJJWRe3A2hjUA8M9Rk+uFkMxdzTJRZq9NwgiuZDPDhjZho9T0eYyc4H8xt46Pixdo0jxRwHRHChMYH2pk7b4U5bSUQp2NqUr3x8KHlOtO5Hz/P3X2NNkw0Zl8j2BPlvGf6OSB5Lp8nXQXkOwaqd6dyQB9BPBRDLtMY0ky2zKKyLxvZjNXfxBs17shaooBkC9VfAryfZ4OnKNN0uYKTj/i7q5hnkpWf+AOEiLjNe7JUxTo3DROUVxdDdvZFsLl6t+1qrLBoZL5mxOzFI7+y87MMGy8z32NxP+W9wN4x73DvGz/ZwVnQWmWPpV/TJ+Ub9BO/aqqgB1kIPdUyXl7cuhOKSoqLtsY=
 
 # Cloud testing
-after_deploy:
-  - npm install
-  # - npm install zuul --global
-  # - npm run test-cloud
+# after_deploy:
+#   - npm install
+#   - npm install zuul --global
+#   - npm run test-cloud
