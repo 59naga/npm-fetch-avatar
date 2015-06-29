@@ -1,6 +1,6 @@
 {
   "name": "npm-fetch-avatar",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0",
   "description": "Fetch the gravatar image url via profile page",
 
   "scripts": {
