@@ -4,48 +4,26 @@
 
 > Fetch the gravatar image url via profile page
 
-* feature 1
-* feature 2
-* feature 3
-
 ## Installation
-### Via npm
 
 ```bash
 $ npm install npm-fetch-avatar --save
 ```
 
-```js
-var npmFetchAvatar= require('project');
-console.log(npmFetchAvatar); //object
-```
-
-### Via bower
-
-```bash
-$ bower install npm-fetch-avatar --save
-```
-
-```html
-<script src="bower_components/npm-fetch-avatar/npm-fetch-avatar.min.js"></script>
-<script>
-  console.log(npmFetchAvatar); //object
-</script>
-```
-
 # API
 
-## method -> becomes
+## npmFetchAvatar -> (error,url)
 
 description
 
 ```js
-// example code
-```
+npmFetchAvatar('substack',function(error,url){
+  if(error) throw error
 
-# Related projects
-* __npm-fetch-avatar__
-* [other-project](https://github.com/59naga/other-project/)
+  console.log(url);
+  // https://secure.gravatar.com/avatar/d4a2f12ceae3b7f211b661576d22bfb9?size=496&default=retro
+});
+```
 
 License
 ---
