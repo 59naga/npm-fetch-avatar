@@ -8,13 +8,13 @@ $ npm install npm-fetch-avatar --save
 
 # API
 
-## npmFetchAvatar(user) -> (error,avatarUrl)
+## npmFetchAvatar(user,callback(error,avatarUrl))
 
 Fetch the avatar url via profile page
 
 ```js
 npmFetchAvatar('substack',function(error,avatarUrl){
-  if(error) throw error
+  if(error) throw error;
 
   console.log(avatarUrl);
   // https://secure.gravatar.com/avatar/d4a2f12ceae3b7f211b661576d22bfb9?size=496&default=retro
