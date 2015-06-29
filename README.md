@@ -1,7 +1,5 @@
 # NpmFetchAvatar [![NPM version][npm-image]][npm] [![Build Status][travis-image]][travis] [![Coverage Status][coveralls-image]][coveralls]
 
-> Fetch the avatar url via profile page
-
 ## Installation
 
 ```bash
@@ -12,7 +10,7 @@ $ npm install npm-fetch-avatar --save
 
 ## npmFetchAvatar(user) -> (error,avatarUrl)
 
-description
+Fetch the avatar url via profile page
 
 ```js
 npmFetchAvatar('substack',function(error,avatarUrl){
